@@ -1,0 +1,14 @@
+{
+  "id": "aphelion-test-plugin",
+  "version": "1.0.0",
+  "api": "^0.2.2",
+  "server": {
+    "entry": "dist/server.mjs"
+  },
+  "permissions": {
+    "events": [
+      "approval.requested"
+    ]
+  },
+  "repository": "jcore9-bot/aphelion-test-plugin"
+}
